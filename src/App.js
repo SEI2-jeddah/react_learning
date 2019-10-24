@@ -1,17 +1,15 @@
 import React, { Component } from 'react'
-import Ebere from './Ebere'
+import Navigation from './Navigation'
+
+import './App.css'
 
 export default class App extends Component {
 
-  render() {
+
+ render() {
     return (
-      <div>
-       
-        <Ebere />
-        <Ebere />
-        <Ebere />
-        <Ebere />
-        <Ebere />
+      <div className="App">
+       <Navigation />
       </div>
     )
   }
