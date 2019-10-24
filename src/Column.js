@@ -2,11 +2,12 @@ import React from 'react'
 
 const Column = (props) => {
  return (
-  <div>
-   <h3>{props.title}</h3>
-   <p>{props.information}</p>
+  <div className="col-4">
+    <h3>{props.anything}</h3>
+    <p>{props.desc}</p>
   </div>
  )
+
 }
 
 export default Column
